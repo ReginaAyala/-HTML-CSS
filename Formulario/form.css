@@ -4,11 +4,12 @@
 }
 
 body {
-    background-color: #861657;
+    background-image: linear-gradient(180deg, #adffff 0, #a4ffff 25%, #9df2f2 50%, #97dade 75%, #92c5cb 100%);
 
 }
+
 #card {
-    background-color: #93E1D8;
+    background-color: #FFA69E;
     min-width: 400px;
     max-width: 350px;
     margin: 100px 500px;
@@ -17,12 +18,71 @@ body {
 
     text-align: center;
     font-family: sans-serif;
+    font-weight: bold;
     line-height: 2;
     color: #AA4465;
     padding-top: 40px;
     padding-bottom: 40px;
-    
+    cursor: pointer;
 }
+
+input[type="text"]{
+    border: none;
+    border-radius: 4px;
+    background-color: #adffff;
+    text-align: center;
+}
+
+input[type="date"] {
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #adffff;
+}
+
+input:hover{
+    background-color: #FFA69E;
+}
+
+input:focus {
+    outline: 2px solid #adffff;
+    border: none;
+  }
+
+select{
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #adffff;
+}
+
+select:hover {
+    background-color: #FFA69E;
+}
+
+select:focus {
+    outline: 2px solid #adffff;
+    border: none;
+}
+
+textarea:hover {
+    background-color: #FFA69E;
+}
+
+textarea:focus {
+    outline: 2px solid #adffff;
+    border: none; 
+
+}
+textarea{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #adffff;
+    font-weight: 500;
+}
+
+
 
 button {
     margin-left: auto;
@@ -33,7 +93,7 @@ button {
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    border-radius: 40px;
+    border-radius: 10px;
     border: none;
    }
    
@@ -51,8 +111,7 @@ button {
     left: 0;
     width: 100%;
     height: 200px;
-    background: #FFA69E;
-    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    background: #AA4465;
     transition: .5s;
    }
    
@@ -65,7 +124,7 @@ button {
     top: 0;
     left: 50%;
     transform: translate(-50%, -75%);
-    background: #AA4465;
+    background:  #FFA69E;
    }
    
    button .liquid::before {
