@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #f4a5ae, #da83a5, #b666a2, #8650a1, #3b429f);
+    background-repeat: no-repeat;
+}
+
+
+#card {
+    background-color: #AA7DCE;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #AA7DCE 40px ), repeating-linear-gradient( #F4A5AE55, #F4A5AE );
+    min-width: 350px;
+    max-width: 350px;
+    margin: 200px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 4px #F4A5AE;
+}
+
+ #card > img {
+    padding: 32px; 
+    max-width: 100%;
+    border-radius: 40px 40px 40px 40px;
+    margin: 0 auto ;
+    display: block;
+ }
+
+ #texto{
+     text-align: center;
+     font-family: sans-serif;
+     color: #F8F3F5;
+ }
+
+ #redes{
+    padding-bottom: 32px;
+ }
