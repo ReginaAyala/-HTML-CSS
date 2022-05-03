@@ -5,6 +5,9 @@
 body {
     background-color: var(--light-color);
     font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .container {
