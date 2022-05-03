@@ -1,0 +1,107 @@
+@import "./variables.css";
+
+body {
+    background-color: var(--light-color);
+}
+
+.card{
+    min-width: 400px;
+    max-width: 350px;
+    margin: 100px 500px;
+    font-family: sans-serif;
+    color: #FFA69E;
+    cursor: pointer;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFA69E;
+}
+
+#form {
+    background-color: var(--layout-course);
+    justify-content: center;  
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+
+input[type="text"]{
+    border: none;
+    border-radius: 4px;
+    background-color: #adffff;
+    text-align: center;
+}
+
+input[type="date"] {
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #adffff;
+}
+
+input:hover{
+    background-color: #FFA69E;
+}
+
+input:focus {
+    outline: 2px solid #adffff;
+    border: none;
+  }
+
+select{
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #adffff;
+}
+
+select:hover {
+    background-color: #FFA69E;
+}
+
+select:focus {
+    outline: 2px solid #adffff;
+    border: none;
+}
+
+textarea:hover {
+    background-color: #FFA69E;
+}
+
+textarea:focus {
+    outline: 2px solid #adffff;
+    border: none; 
+
+}
+textarea{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #adffff;
+    font-weight: 500;
+}
+#send-form{
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: var(--light-color);
+    min-width: 100px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 5px;
+}
+#send-form:hover{
+    background-color: var(--letter-color);
+}

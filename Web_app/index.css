@@ -1,0 +1,57 @@
+@import "./variables.css";
+@import "./reset-styles.css";
+@import "./style-2.css";
+
+body {
+    background-color: var(--light-color);
+    font-family: 'Jost', sans-serif;
+  }
+
+.container {
+    max-width: 900px;
+    margin: calc(var(--space-unit) * 5) auto 0;
+    overflow-y: hidden;
+  }
+  
+.home-layout {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    column-gap: calc(var(--space-unit) * 4);
+  }
+
+
+.card {
+    border-radius: 8px;
+    padding: calc(var(--space-unit) * 2);
+    background-color: var(--letter-color2);
+  }
+
+.card~.card {
+    margin-top: calc(var(--space-unit) * 3);
+  }
+
+
+.reviews-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    margin: calc(var(--space-unit) * 2) auto 0;
+    height: calc(100% - 420px);
+    overflow: auto;
+  }
+
+#review-column{
+    margin-bottom: calc(var(--space-unit)*2);
+    border-top: 3px solid #f7968d;
+    border-radius: 8px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+
+  }
+
+
+

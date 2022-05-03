@@ -1,0 +1,11 @@
+@import "./index.css";
+
+#card-recipe {
+    min-width: 800px;
+    max-width: 800px;
+    align-self: center;
+    margin: 50px auto;
+}
+h2{
+    text-align: center;
+}

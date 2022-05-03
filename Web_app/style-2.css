@@ -1,0 +1,72 @@
+@import "./index.css";
+@import "./variables.css";
+
+#profile-card {
+    background-color: #FFA69E;
+    color: var(--layout-course);
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+  }
+
+#description-card{
+    background-color: var(--letter-color);
+    color: var(--layout-course);
+}
+
+#course{
+    background-color: #AA4465;
+    color: var(--letter-color2);
+    text-align: center;
+}
+
+#profile-card>img {
+    max-width: 90px;
+    border-radius: 100%;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: -30%;
+  }
+
+  .button-1 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid var(--letter-color);
+    background: var(--letter-color);
+    top: 10px;
+}
+
+.button-1:hover {
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: calc(var(--space-unit) * 1) calc(var(--space-unit) * 2);
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    
+  }
+.button-1:hover {
+    background-color: var(--light-color);
+  }
+
+  a{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFA69E;
+}
+#button-2{
+  color: black;
+}
+
